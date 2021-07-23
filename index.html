@@ -334,6 +334,32 @@
   <div class="modal-overlay is-hidden" data-modal>
     <div class="modal">
       <button class="modal-close" type="button" data-modal-close></button>
+      <form class="modal-form">
+        <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
+        <ul class="inputs">
+          <li class="item">
+            <label class="form-field">
+              <span class="label">Имя</span>
+              <svg class="icon" width="18" height="18">
+                <use href="./images/sprite.svg#person-icon"></use>
+              </svg>
+              <input class="input" type="text" name="name">
+            </label>
+          </li>
+          <li class="item">
+            <label class="form-field">
+              <span class="label">Телефон</span>
+              <input class="input" type="tel" name="tel">
+            </label>
+          </li>
+          <li class="item">
+            <label class="form-field">
+              <span class="label">Почта</span>
+              <input class="input" type="email" name="email">
+            </label>
+          </li>
+        </ul>
+      </form>
     </div>
   </div>
 </main>
@@ -382,6 +408,15 @@
           </a>
         </li>
       </ul>
+    </div>
+    <div class="column">
+      <form class="footer-form">
+        <div class="form-column">
+          <h3 class="heading">Подпишитесь на рассылку</h3>
+          <input class="input" type="email" name="email" placeholder="E-mail">
+        </div>
+        <button class="button" type="submit">Подписаться</button>
+      </form>
     </div>
   </div>
 </footer>
